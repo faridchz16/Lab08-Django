@@ -70,6 +70,7 @@ Durante el desarrollo de este laboratorio, se configuraron y utilizaron subagent
 ## 📦 Estructura de Commits del Repositorio
 
 El historial de versiones se encuentra organizado en 8 commits atómicos documentados en español:
+- `696e588` - Adición de la documentación README.md del laboratorio 08
 - `0f969fa` - Implementación de la pasarela y frontera segura del agente de IA (agent/) con auditoría
 - `5936e59` - Desarrollo del cliente de consola (quizctl.py), contrato OpenAPI (schema.yml) y pruebas unitarias
 - `2a0f760` - Configuración de permisos estrictos en el servidor para prohibir borrados al agente
@@ -78,3 +79,25 @@ El historial de versiones se encuentra organizado en 8 commits atómicos documen
 - `1769fc7` - Creación del comando de inicialización de datos y tokens (seed_quiz)
 - `656b564` - Implementación de modelos en singular (Exam, Question, Choice) y migraciones iniciales
 - `a013b9a` - Configuración inicial del proyecto Django, dependencias y estructura base
+
+## 📸 Capturas y Evidencias del Proyecto
+
+A continuación se muestran las principales evidencias del funcionamiento, verificación y pruebas del proyecto almacenadas en la carpeta `Evidencias_lab08/`:
+
+1. **Centro de Control e Inicio:**
+   ![Centro de Control](Evidencias_lab08/01_inicio_centro_control.png)
+
+2. **Documentación Interactiva (Swagger UI):**
+   ![Swagger UI](Evidencias_lab08/02_documentacion_swagger_ui.png)
+
+3. **API Navegable de Django REST Framework:**
+   ![API Navegable](Evidencias_lab08/03_api_navegable_drf.png)
+
+4. **Panel de Administración de Django:**
+   ![Panel de Administración](Evidencias_lab08/04_panel_administracion_django.png)
+
+5. **Ejecución del Cliente de Consola (`quizctl.py`):**
+   ![Cliente de Consola](Evidencias_lab08/05_cliente_consola_quizctl.png)
+
+6. **Pasarela de Seguridad del Agente de IA:**
+   ![Pasarela de IA](Evidencias_lab08/06_pasarela_seguridad_agente_ia.png)
