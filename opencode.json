@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "django-dev": {
+      "description": "Django backend and REST Framework specialist for models, serializers, viewsets, and permissions.",
+      "mode": "subagent"
+    },
+    "cli-gateway": {
+      "description": "CLI client and AI gateway specialist for quizctl.py, OpenAPI schemas, and gateway security audits.",
+      "mode": "subagent"
+    }
+  }
+}
